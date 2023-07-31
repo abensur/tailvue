@@ -77,6 +77,11 @@ modules: [
 ],
 ```
 
+* Access through built-in composable `useNuxtApp`
+```ts
+const { $toast, $modal } = useNuxtApp()
+```
+
 > **Note**
 > If you are using Nuxt 2 you may need to put this in of the `buildModules` array
 
